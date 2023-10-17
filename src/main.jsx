@@ -6,6 +6,7 @@ import { ThemeProvider } from "@material-tailwind/react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from "./pages/Home/HomePage.jsx";
 import AllCategoryPage from "./pages/Category/AllCategoryPage.jsx";
+import AllBrandPage from "./pages/Brand/AllBrandPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,7 @@ const router = createBrowserRouter([
       { index: true, element: <HomePage /> },
       { path: "/home", element: <HomePage /> },
       { path: "/allCategory", element: <AllCategoryPage /> },
+      { path: "/allBrand", element: <AllBrandPage /> },
     ],
   },
 ]);

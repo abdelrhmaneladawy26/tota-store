@@ -20,7 +20,11 @@ const HomePage = () => {
       />
       <CardProductContainer title="أفضل المبيعات" btnTitle="عرض المزيد" />
       <Banner />
-      <BrandFeatured />
+      <BrandFeatured
+        title="أفضل الماركات"
+        btnTitle="عرض المزيد"
+        path="/allBrand"
+      />
     </div>
   );
 };
