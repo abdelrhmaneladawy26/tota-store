@@ -1,7 +1,8 @@
 import { Drawer, Typography, IconButton } from "@material-tailwind/react";
 import { useState } from "react";
 import { AiOutlineSearch } from "react-icons/ai";
-
+import { Input } from "@material-tailwind/react";
+import { BsSearch } from "react-icons/bs";
 const Search = () => {
   const [open, setOpen] = useState(false);
   const openDrawer = () => setOpen(true);
@@ -33,6 +34,9 @@ const Search = () => {
               />
             </svg>
           </IconButton>
+        </div>
+        <div className="w-50">
+          <Input label="بحث المنتجات" />
         </div>
       </Drawer>
     </div>
