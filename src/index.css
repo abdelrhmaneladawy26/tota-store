@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  .sub-title {
+    @apply flex justify-center items-center;
+  }
+  .container {
+    @apply px-[30px] mx-auto;
+  }
+}
+
+body {
+  font-family: "Cairo", sans-serif;
+}
