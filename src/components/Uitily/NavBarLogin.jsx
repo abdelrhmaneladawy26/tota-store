@@ -1,7 +1,8 @@
 import { useState } from "react";
 import Search from "./Search";
-import { AiOutlineHeart, AiOutlineUser } from "react-icons/ai";
+import { AiOutlineHeart } from "react-icons/ai";
 import { SlBasket } from "react-icons/sl";
+import Auth from "../Auth/AuthContainer";
 
 const NavBarLogin = () => {
   const [links, setLinks] = useState(["أولادي", "بناتي", "مستلزمات أطفال"]);
@@ -22,12 +23,12 @@ const NavBarLogin = () => {
               </li>
             ))}
           </ul>
-          <form className="flex gap-[10px] ">
+          <div className="flex gap-[10px] ">
             <Search />
-            <AiOutlineUser className="text-[30px]" />
+            <Auth />
             <AiOutlineHeart className="text-[30px]" />
             <SlBasket className="text-[30px]" />
-          </form>
+          </div>
         </nav>
       </div>
     </div>

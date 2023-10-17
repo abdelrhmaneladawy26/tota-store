@@ -1,21 +1,22 @@
 import { Drawer, Typography, IconButton } from "@material-tailwind/react";
 import { useState } from "react";
-import { AiOutlineSearch } from "react-icons/ai";
-import { Input } from "@material-tailwind/react";
-const Search = () => {
+import { AiOutlineUser } from "react-icons/ai";
+import AuthForm from "./AuthForm";
+const Auth = () => {
   const [open, setOpen] = useState(false);
   const openDrawer = () => setOpen(true);
   const closeDrawer = () => setOpen(false);
   return (
     <div>
-      <AiOutlineSearch
+      {" "}
+      <AiOutlineUser
         onClick={openDrawer}
         className="text-[30px] cursor-pointer"
       />
       <Drawer open={open} onClose={closeDrawer} className="p-4">
         <div className="mb-6 flex items-center justify-between">
           <Typography variant="h5" color="blue-gray">
-            بحث فى المنتجات
+            تسجيل دخول / التسجيل
           </Typography>
           <IconButton variant="text" color="blue-gray" onClick={closeDrawer}>
             <svg
@@ -35,11 +36,11 @@ const Search = () => {
           </IconButton>
         </div>
         <div className="w-50">
-          <Input label="بحث المنتجات" />
+          <AuthForm />
         </div>
       </Drawer>
     </div>
   );
 };
 
-export default Search;
+export default Auth;
