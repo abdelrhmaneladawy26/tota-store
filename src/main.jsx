@@ -5,6 +5,7 @@ import "./index.css";
 import { ThemeProvider } from "@material-tailwind/react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from "./pages/Home/HomePage.jsx";
+import AllCategoryPage from "./pages/Category/AllCategoryPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,7 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <HomePage /> },
       { path: "/home", element: <HomePage /> },
+      { path: "/allCategory", element: <AllCategoryPage /> },
     ],
   },
 ]);

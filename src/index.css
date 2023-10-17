@@ -9,6 +9,9 @@
   .container {
     @apply px-[30px] mx-auto;
   }
+  .btn-pagination {
+    @apply mx-1 flex h-9 w-9 items-center justify-center rounded-full text-blue-gray-500 cursor-pointer;
+  }
 }
 
 body {

@@ -3,6 +3,7 @@ import Search from "./Search";
 import { AiOutlineHeart } from "react-icons/ai";
 import { SlBasket } from "react-icons/sl";
 import Auth from "../Auth/AuthContainer";
+import { Link } from "react-router-dom";
 
 const NavBarLogin = () => {
   const [links, setLinks] = useState(["أولادي", "بناتي", "مستلزمات أطفال"]);
@@ -11,10 +12,12 @@ const NavBarLogin = () => {
       <div className="container ">
         <nav className="flex justify-between items-center flex-wrap">
           <div className="">
-            <img
-              src="/src/assets/logo.jpg"
-              className="w-[100px] h-[100px] cursor-pointer object-contain"
-            />
+            <Link to="home">
+              <img
+                src="/src/assets/logo.jpg"
+                className="w-[100px] h-[100px] cursor-pointer object-contain"
+              />
+            </Link>
           </div>
           <ul className="flex gap-[10px]">
             {links.map((link) => (

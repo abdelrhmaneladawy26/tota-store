@@ -1,10 +1,16 @@
+import { Outlet } from "react-router";
 import "./App.css";
-import HomePage from "./pages/Home/HomePage";
+import NavBarLogin from "./components/Uitily/NavBarLogin";
+import Footer from "./components/Uitily/Footer";
 
 function App() {
   return (
     <>
-      <HomePage />
+      <NavBarLogin />
+      <div className="min-h-[680px]">
+        <Outlet />
+      </div>
+      <Footer />
     </>
   );
 }
