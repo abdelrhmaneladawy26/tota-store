@@ -16,7 +16,7 @@ const HomePage = () => {
       <CardProductContainer
         title="أحدث المنتجات"
         btnTitle="عرض المزيد"
-        path=""
+        path="/products"
       />
       <CardProductContainer title="أفضل المبيعات" btnTitle="عرض المزيد" />
       <Banner />

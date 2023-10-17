@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from "./pages/Home/HomePage.jsx";
 import AllCategoryPage from "./pages/Category/AllCategoryPage.jsx";
 import AllBrandPage from "./pages/Brand/AllBrandPage.jsx";
+import ShopProductPage from "./pages/Products/ShopProductPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,7 @@ const router = createBrowserRouter([
       { path: "/home", element: <HomePage /> },
       { path: "/allCategory", element: <AllCategoryPage /> },
       { path: "/allBrand", element: <AllBrandPage /> },
+      { path: "/products", element: <ShopProductPage /> },
     ],
   },
 ]);

@@ -14,8 +14,8 @@ const Banner = () => {
         <div className="relative overflow-hidden">
           <img src={banner2} className="hover:scale-[1.05] duration-200 " />
           <div className="text-[25px] font-medium absolute top-[20%] right-[5%]">
-            ملابس عصرية
-            <br /> لجميع فصول السنة
+            مستلزمات رعاية الطفل
+            <br /> سرير - بطانية - كوفرتة
           </div>
         </div>
       </div>
