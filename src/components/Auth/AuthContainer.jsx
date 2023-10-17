@@ -1,11 +1,22 @@
 import { Drawer, Typography, IconButton } from "@material-tailwind/react";
 import { useState } from "react";
 import { AiOutlineUser } from "react-icons/ai";
-import AuthForm from "./AuthForm";
+import {
+  Card,
+  CardBody,
+  Tabs,
+  TabsHeader,
+  TabsBody,
+  Tab,
+} from "@material-tailwind/react";
+import SignUp from "./SignUp";
+import Login from "./Login";
 const Auth = () => {
   const [open, setOpen] = useState(false);
+  const [type, setType] = useState("card");
   const openDrawer = () => setOpen(true);
   const closeDrawer = () => setOpen(false);
+
   return (
     <div>
       {" "}
@@ -36,7 +47,41 @@ const Auth = () => {
           </IconButton>
         </div>
         <div className="w-50">
-          <AuthForm />
+          <Card className="w-full max-w-[24rem]">
+            <CardBody>
+              <Tabs value={type} className="overflow-visible">
+                <TabsHeader className="">
+                  <Tab
+                    className="text-[15px]"
+                    value="card"
+                    onClick={() => setType("card")}
+                  >
+                    تسجيل الدخول
+                  </Tab>
+                  <Tab value="paypal" onClick={() => setType("paypal")}>
+                    التسجيل
+                  </Tab>
+                </TabsHeader>
+                <TabsBody
+                  className="!overflow-x-hidden !overflow-y-visible"
+                  animate={{
+                    initial: {
+                      x: type === "card" ? 400 : -400,
+                    },
+                    mount: {
+                      x: 0,
+                    },
+                    unmount: {
+                      x: type === "card" ? 400 : -400,
+                    },
+                  }}
+                >
+                  <Login />
+                  <SignUp />
+                </TabsBody>
+              </Tabs>
+            </CardBody>
+          </Card>
         </div>
       </Drawer>
     </div>
