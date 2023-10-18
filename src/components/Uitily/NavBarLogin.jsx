@@ -26,7 +26,7 @@ const NavBarLogin = () => {
               </li>
             ))}
           </ul>
-          <div className="flex gap-[10px] ">
+          <div className="flex gap-[10px] my-3 md:my-0">
             <Search />
             <Auth />
             <AiOutlineHeart className="text-[30px]" />
