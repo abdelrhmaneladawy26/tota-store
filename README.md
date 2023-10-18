@@ -9,7 +9,7 @@
  
 # Pages
 **Home**
-![enter image description here](https://up6.cc/2023/10/169763215339681.png)
+![enter image description here](https://up6.cc/2023/10/16976333736831.jpg)
  
  **Product Details**
- ![enter image description here](https://up6.cc/2023/10/169763230718881.jpg)
+ ![enter image description here](https://up6.cc/2023/10/169763342140481.jpg)
