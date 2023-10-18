@@ -11,9 +11,9 @@ const Footer = () => {
     <footer className="bg-[#F5F5F5] py-[20px]">
       <div className="container grid grid-cols-1 md:grid-cols-3 gap-[15px] pt-10 ">
         <div>
-          <p className="px-[0] md:px-[50px]">
+          <p className="px-[0] md:px-[50px] ">
             تسوق مع توتا ستور جميع متطلبات الاطفال من ملابس ومنتجات رعاية كاملة
-            للطفل لنمو صحي وراحة اكتر
+            للطفل لنمو صحى وراحة اكتر
           </p>
         </div>
         <div>
