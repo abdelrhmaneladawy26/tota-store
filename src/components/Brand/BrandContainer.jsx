@@ -1,9 +1,9 @@
 import BrandCard from "./BrandCard";
-import img1 from "../../assets/fine.webp";
-import img2 from "../../assets/fine.webp";
-import img3 from "../../assets/fine.webp";
-import img4 from "../../assets/fine.webp";
-import img5 from "../../assets/fine.webp";
+import img1 from "../../../public/assets/fine.webp";
+import img2 from "../../../public/assets/fine.webp";
+import img3 from "../../../public/assets/fine.webp";
+import img4 from "../../../public/assets/fine.webp";
+import img5 from "../../../public/assets/fine.webp";
 const BrandContainer = () => {
   return (
     <div>

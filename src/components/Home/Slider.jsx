@@ -1,6 +1,8 @@
 import { Carousel } from "@material-tailwind/react";
 import { BsArrowLeft } from "react-icons/bs";
-
+import image1 from "../../../public/assets/slider1.jpg";
+import image2 from "../../../public/assets/slider1.jpg";
+import image3 from "../../../public/assets/slider1.jpg";
 const Slider = () => {
   return (
     <div className="h-[50vh] md:h-[80vh] ">
@@ -35,7 +37,7 @@ const Slider = () => {
             </a>
           </div>
           <img
-            src="/src/assets/slider1.jpg"
+            src={image1}
             alt="image 1"
             className="h-full w-full object-cover"
           />
@@ -52,7 +54,7 @@ const Slider = () => {
             </a>
           </div>
           <img
-            src="/src/assets/slider2.jpg"
+            src={image2}
             alt="image 1"
             className="h-full w-full object-cover"
           />
@@ -69,7 +71,7 @@ const Slider = () => {
             </a>
           </div>
           <img
-            src="/src/assets/slider3.png"
+            src={image3}
             alt="image"
             className="h-full w-full object-cover"
           />

@@ -4,7 +4,7 @@ import { AiOutlineHeart } from "react-icons/ai";
 import { SlBasket } from "react-icons/sl";
 import Auth from "../Auth/AuthContainer";
 import { Link } from "react-router-dom";
-
+import logo from "../../../public/assets/logo.jpg";
 const NavBarLogin = () => {
   const [links, setLinks] = useState(["أولادي", "بناتي", "مستلزمات أطفال"]);
   return (
@@ -14,7 +14,7 @@ const NavBarLogin = () => {
           <div className="">
             <Link to="home">
               <img
-                src="/src/assets/logo.jpg"
+                src={logo}
                 className="w-[100px] h-[100px] cursor-pointer object-contain"
               />
             </Link>

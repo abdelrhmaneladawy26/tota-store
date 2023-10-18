@@ -1,7 +1,7 @@
 import CategoryCard from "../Category/CategoryCard";
 import SubTitle from "../Uitily/SubTitle";
-import image1 from "../../assets/main-category.jpg";
-import image2 from "../../assets/main-category2.jpg";
+import image1 from "../../../public/assets/main-category.jpg";
+import image2 from "../../../public/assets/main-category2.jpg";
 const HomeCategory = ({ title, btnTitle, path }) => {
   return (
     <div>

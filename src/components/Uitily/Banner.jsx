@@ -1,5 +1,5 @@
-import banner1 from "/src/assets/subbanner2.jpg";
-import banner2 from "/src/assets/subbanner.jpg";
+import banner1 from "../../../public/assets/subbanner.jpg";
+import banner2 from "../../../public/assets/subbanner2.jpg";
 const Banner = () => {
   return (
     <div>

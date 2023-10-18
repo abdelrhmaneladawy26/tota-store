@@ -1,10 +1,10 @@
 import SubTitle from "../Uitily/SubTitle";
 import BrandCard from "./BrandCard";
-import img1 from "../../assets/fine.webp";
-import img2 from "../../assets/fine.webp";
-import img3 from "../../assets/fine.webp";
-import img4 from "../../assets/fine.webp";
-import img5 from "../../assets/fine.webp";
+import img1 from "../../../public/assets/fine.webp";
+import img2 from "../../../public/assets/LeQueen2-logos.webp";
+import img3 from "../../../public/assets/frist-baby-2-01.webp";
+import img4 from "../../../public/assets/mini.webp";
+import img5 from "../../../public/assets/mast.webp";
 const BrandFeatured = ({ title, btnTitle, path }) => {
   return (
     <div className="container">
