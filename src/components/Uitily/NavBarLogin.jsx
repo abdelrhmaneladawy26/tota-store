@@ -5,6 +5,7 @@ import { SlBasket } from "react-icons/sl";
 import Auth from "../Auth/AuthContainer";
 import { Link } from "react-router-dom";
 import logo from "../../../public/assets/logo.jpg";
+import CartNav from "../Cart/CartNav";
 const NavBarLogin = () => {
   const [links, setLinks] = useState(["أولادي", "بناتي", "مستلزمات أطفال"]);
   return (
@@ -29,8 +30,7 @@ const NavBarLogin = () => {
           <div className="flex gap-[10px] my-3 md:my-0">
             <Search />
             <Auth />
-            <AiOutlineHeart className="text-[30px]" />
-            <SlBasket className="text-[30px]" />
+            <CartNav />
           </div>
         </nav>
       </div>

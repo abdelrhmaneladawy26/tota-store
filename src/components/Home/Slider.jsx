@@ -1,8 +1,8 @@
 import { Carousel } from "@material-tailwind/react";
 import { BsArrowLeft } from "react-icons/bs";
 import image1 from "../../../public/assets/slider1.jpg";
-import image2 from "../../../public/assets/slider1.jpg";
-import image3 from "../../../public/assets/slider1.jpg";
+import image2 from "../../../public/assets/slider2.jpg";
+import image3 from "../../../public/assets/slider3.png";
 const Slider = () => {
   return (
     <div className="h-[50vh] md:h-[80vh] ">

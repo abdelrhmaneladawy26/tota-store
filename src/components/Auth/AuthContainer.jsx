@@ -24,7 +24,7 @@ const Auth = () => {
         onClick={openDrawer}
         className="text-[30px] cursor-pointer"
       />
-      <Drawer open={open} onClose={closeDrawer} className="p-4">
+      <Drawer open={open} onClose={closeDrawer} className="p-4" size={350}>
         <div className="mb-6 flex items-center justify-between">
           <Typography variant="h5" color="blue-gray">
             تسجيل دخول / التسجيل
