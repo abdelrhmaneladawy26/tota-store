@@ -1,7 +1,5 @@
 import { useState } from "react";
 import Search from "./Search";
-import { AiOutlineHeart } from "react-icons/ai";
-import { SlBasket } from "react-icons/sl";
 import Auth from "../Auth/AuthContainer";
 import { Link } from "react-router-dom";
 import logo from "../../../public/assets/logo.jpg";
@@ -11,7 +9,7 @@ const NavBarLogin = () => {
   return (
     <div className="">
       <div className="container ">
-        <nav className="flex justify-between items-center flex-wrap">
+        <nav className="flex justify-center flex-col md:flex-row  md:justify-between  items-center flex-wrap">
           <div className="">
             <Link to="home">
               <img

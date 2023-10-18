@@ -21,7 +21,7 @@ const CartCheckOut = () => {
       <Button className="w-full my-3">التقدم لاتمام الطلب</Button>
       <Link to="/">
         <a className="flex items-center gap-2">
-          <CgArrowRight /> متابغة التسوق
+          <CgArrowRight /> متابعة التسوق
         </a>
       </Link>
     </div>
